@@ -23,7 +23,7 @@ def read_conllu_like_iob2(filepath):
                     sentence.append(word)
                     label.append(tag)
 
-    # Add last sentence if file doesn't end with newline C:\Users\hp\Documents\GitHub\FinanceNER\baseline.py
+    # Add last sentence if file doesn't end with newline
     if sentence:
         sentences.append(sentence)
         labels.append(label)
@@ -121,9 +121,9 @@ training_args = TrainingArguments(
     output_dir="./results",
     evaluation_strategy="epoch",
     learning_rate=0.0001,
-    per_device_train_batch_size=16,
-    per_device_eval_batch_size=16,
-    num_train_epochs=3,
+    per_device_train_batch_size=128,
+    per_device_eval_batch_size=128,
+    num_train_epochs=1,
     weight_decay=0.01,
     save_strategy="epoch",
     logging_dir="./logs",
@@ -142,3 +142,50 @@ trainer.train()
 
 
 
+
+
+def predict_ner(model, tokenizer, sentences, label2id, id2label, max_len=128):
+    model.eval()
+    predictions = []
+    
+    for sentence in sentences:
+        encoding = tokenizer(sentence,
+                             is_split_into_words=True,
+                             padding='max_length',
+                             truncation=True,
+                             max_length=max_len,
+                             return_tensors='pt')
+        
+        with torch.no_grad():
+            outputs = model(**encoding)
+        
+        logits = outputs.logits
+        predicted_ids = torch.argmax(logits, dim=2).squeeze(0).tolist()
+        
+        word_ids = encoding.word_ids(batch_index=0)
+        prev_word_idx = None
+        sentence_predictions = []
+        
+        for i, word_idx in enumerate(word_ids):
+            if word_idx is None:
+                continue
+            if word_idx != prev_word_idx:  # Only consider first subword
+                sentence_predictions.append(id2label[predicted_ids[i]])
+            prev_word_idx = word_idx
+        
+        predictions.append(sentence_predictions)
+    
+    return predictions
+
+# Load test data
+#test_sentences, test_labels = read_conllu_like_iob2('en_ewt-ud-test-masked.iob2')
+test_sentences, test_labels = read_conllu_like_iob2('test.iob2')
+# Run prediction
+test_predictions = predict_ner(model, tokenizer, test_sentences, label2id, id2label)
+
+# Print example output
+for i in range(5):  # Print first 5 predictions
+    print("Sentence:", " ".join(test_sentences[i]))
+    print("Predicted labels:", test_predictions[i])
+    print("Actual labels:", test_labels[i])
+    print()
