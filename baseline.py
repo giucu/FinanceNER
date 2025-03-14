@@ -23,7 +23,7 @@ def read_conllu_like_iob2(filepath):
                     sentence.append(word)
                     label.append(tag)
 
-    # Add last sentence if file doesn't end with newline
+    # Add last sentence if file doesn't end with newline C:\Users\hp\Documents\GitHub\FinanceNER\baseline.py
     if sentence:
         sentences.append(sentence)
         labels.append(label)
