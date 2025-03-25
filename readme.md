@@ -10,3 +10,4 @@ To-do:
 some links for reference:
 https://medium.com/ravenpack/using-ner-to-detect-relevant-entities-in-finance-a66af2fad921
 https://github.com/maxbbraun/trump2cash
+trump tweets dataset: https://github.com/MarkHershey/CompleteTrumpTweetsArchive
