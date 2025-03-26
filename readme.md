@@ -13,3 +13,5 @@ https://github.com/maxbbraun/trump2cash
 trump tweets dataset: https://github.com/MarkHershey/CompleteTrumpTweetsArchive
 
 finbert: https://huggingface.co/ProsusAI/finbert
+
+training model weights (for now): https://drive.google.com/file/d/1zRykie7-WOuDMsQ60zrqBUKupyQArLOA/view?usp=sharing
