@@ -11,10 +11,10 @@ the,O
 great,O
 city,O
 of,O
-charlotte,O
+charlotte,LOC_B
 ",",O
-north,O
-carolina,O
+north,LOC_B
+carolina,LOC_I
 with,O
 thousands,O
 of,O
@@ -40,7 +40,7 @@ laws,O
 and,O
 always,O
 put,O
-america,O
+america,ORG_B
 first,O
 !,O
 thank,O
@@ -145,8 +145,8 @@ morning,O
 date: 2020-01-09,O
 thank,O
 you,O
-eli,O
-##se,O
+eli,PER_B
+##se,PER_I
 !,O
 ,O
 ,O
@@ -156,7 +156,7 @@ per,O
 your,O
 request,O
 ",",O
-joe,O
+joe,PER_B
 .,O
 .,O
 .,O
@@ -213,14 +213,14 @@ demo,O
 ",",O
 for,O
 the,O
-senate,O
+senate,ORG_B
 ”,O
 .,O
 sleep,O
 ##y,O
-joe,O
-bid,O
-##en,O
+joe,PER_B
+bid,PER_I
+##en,PER_I
 today,O
 .,O
 it,O
@@ -240,7 +240,7 @@ for,O
 our,O
 county,O
 -,O
-china,O
+china,ORG_B
 will,O
 own,O
 us,O
@@ -256,8 +256,8 @@ win,O
 today,O
 for,O
 the,O
-united,O
-states,O
+united,ORG_B
+states,ORG_I
 and,O
 for,O
 peac,O
@@ -266,8 +266,8 @@ in,O
 the,O
 world,O
 .,O
-su,O
-##dan,O
+su,ORG_B
+##dan,ORG_I
 has,O
 agreed,O
 to,O
@@ -278,14 +278,14 @@ and,O
 normalization,O
 agreement,O
 with,O
-israel,O
+israel,ORG_B
 !,O
 with,O
 the,O
-united,O
-arab,O
-emi,O
-##rates,O
+united,ORG_B
+arab,ORG_I
+emi,ORG_I
+##rates,ORG_I
 and,O
 bah,O
 ##rain,O
@@ -316,8 +316,8 @@ follow,O
 date: 2020-10-23,O
 thank,O
 you,O
-meg,O
-##yn,O
+meg,PER_B
+##yn,PER_I
 !,O
 ,O
 ,O
@@ -331,7 +331,7 @@ mag,O
 ,O
 ,O
 date: 2020-11-09,O
-nevada,O
+nevada,LOC_B
 is,O
 turning,O
 out,O
@@ -354,10 +354,10 @@ msc,O
 amp,O
 ;,O
 @,O
-adam,O
-##la,O
-##xa,O
-##lt,O
+adam,PER_B
+##la,PER_I
+##xa,PER_I
+##lt,PER_I
 are,O
 finding,O
 things,O
@@ -375,7 +375,7 @@ shock,O
 ,O
 ,O
 date: 2020-11-09,O
-wisconsin,O
+wisconsin,LOC_B
 is,O
 looking,O
 very,O
@@ -397,11 +397,11 @@ soon,O
 reinc,O
 ##e,O
 @,O
-sean,O
-##du,O
-##ff,O
-##yw,O
-##i,O
+sean,PER_B
+##du,PER_I
+##ff,PER_I
+##yw,PER_I
+##i,PER_I
 ,O
 ,O
 date: 2020-10-24,O
@@ -410,7 +410,7 @@ is,O
 showing,O
 up,O
 for,O
-obama,O
+obama,PER_B
 ’,O
 s,O
 hate,O
@@ -429,12 +429,12 @@ but,O
 still,O
 better,O
 than,O
-joe,O
+joe,PER_B
 !,O
 ,O
 ,O
 date: 2020-11-09,O
-pennsylvania,O
+pennsylvania,ORG_B
 prevented,O
 us,O
 from,O
@@ -462,7 +462,7 @@ just,O
 lande,O
 ##d,O
 in,O
-ohio,O
+ohio,LOC_B
 .,O
 see,O
 you,O
@@ -474,7 +474,7 @@ while,O
 ,O
 ,O
 date: 2020-11-09,O
-georgia,O
+georgia,LOC_B
 will,O
 be,O
 a,O
@@ -496,7 +496,7 @@ election,O
 date: 2020-10-24,O
 thank,O
 you,O
-ohio,O
+ohio,ORG_B
 !,O
 #,O
 vote,O
@@ -507,12 +507,12 @@ great,O
 to,O
 be,O
 in,O
-ohio,O
+ohio,LOC_B
 ",",O
 leaving,O
 now,O
 for,O
-wisconsin,O
+wisconsin,LOC_B
 .,O
 see,O
 you,O
@@ -539,7 +539,7 @@ nbc,O
 town,O
 hall,O
 in,O
-miami,O
+miami,LOC_B
 .,O
 thank,O
 you,O
@@ -574,11 +574,11 @@ coming,O
 ,O
 ,O
 date: 2020-10-16,O
-bid,O
-##en,O
+bid,PER_B
+##en,PER_I
 lie,O
 ##d,O
-pennsylvania,O
+pennsylvania,ORG_B
 !,O
 ,O
 ,O
@@ -591,10 +591,10 @@ you,O
 date: 2020-10-16,O
 thank,O
 you,O
-libe,O
-##rta,O
-##rian,O
-##s,O
+libe,PER_B
+##rta,PER_I
+##rian,PER_I
+##s,PER_I
 .,O
 we,O
 are,O
@@ -607,7 +607,7 @@ and,O
 fast,O
 !,O
 vote,O
-trump,O
+trump,PER_B
 !,O
 !,O
 !,O
@@ -639,15 +639,15 @@ won,O
 cc,O
 :,O
 @,O
-rep,O
-##do,O
-##ug,O
-##coll,O
-##ins,O
+rep,PER_B
+##do,PER_I
+##ug,PER_I
+##coll,PER_I
+##ins,PER_I
 @,O
-secretary,O
-##son,O
-##ny,O
+secretary,PER_B
+##son,PER_I
+##ny,PER_I
 ,O
 ,O
 date: 2020-11-18,O
@@ -725,7 +725,7 @@ suppressi,O
 date: 2020-10-25,O
 thank,O
 you,O
-ohio,O
+ohio,ORG_B
 !,O
 #,O
 vote,O
@@ -738,8 +738,8 @@ terribl,O
 ##e,O
 thing,O
 for,O
-bid,O
-##en,O
+bid,PER_B
+##en,PER_I
 to,O
 say,O
 !,O
@@ -754,11 +754,11 @@ i,O
 strongly,O
 stand,O
 with,O
-kelly,O
+kelly,PER_B
 &,O
 amp,O
 ;,O
-david,O
+david,PER_B
 .,O
 they,O
 are,O
@@ -774,7 +774,7 @@ date: 2020-10-25,O
 lande,O
 ##d,O
 in,O
-wisconsin,O
+wisconsin,LOC_B
 .,O
 big,O
 crowd,O
@@ -793,7 +793,7 @@ long,O
 said,O
 ",",O
 @,O
-pfizer,O
+pfizer,ORG_B
 and,O
 the,O
 others,O
@@ -825,9 +825,9 @@ likewise,O
 ",",O
 the,O
 @,O
-us,O
+us,ORG_B
 _,O
-fda,O
+fda,ORG_B
 should,O
 have,O
 announced,O
@@ -860,7 +860,7 @@ down,O
 17,O
 points,O
 in,O
-wisconsin,O
+wisconsin,LOC_B
 ",",O
 the,O
 day,O
@@ -873,7 +873,7 @@ i,O
 won,O
 !,O
 in,O
-iowa,O
+iowa,LOC_B
 ",",O
 the,O
 poll,O
@@ -893,13 +893,13 @@ by,O
 2,O
 %,O
 !,O
-fox,O
-news,O
+fox,ORG_B
+news,ORG_I
 and,O
-quinn,O
-##ip,O
-##ia,O
-##c,O
+quinn,ORG_B
+##ip,ORG_I
+##ia,ORG_I
+##c,ORG_I
 were,O
 wrong,O
 on,O
@@ -912,26 +912,26 @@ everything,O
 date: 2020-11-10,O
 .,O
 @,O
-fox,O
-##new,O
-##s,O
+fox,ORG_B
+##new,ORG_I
+##s,ORG_I
 ",",O
 @,O
-quinn,O
-##ip,O
-##ia,O
-##cp,O
-##oll,O
+quinn,ORG_B
+##ip,ORG_I
+##ia,ORG_I
+##cp,ORG_I
+##oll,ORG_I
 ",",O
 abc,O
 /,O
-wa,O
-##po,O
+wa,ORG_B
+##po,ORG_I
 ",",O
 nbc,O
 /,O
-ws,O
-##j,O
+ws,ORG_B
+##j,ORG_I
 were,O
 so,O
 inaccurate,O
@@ -985,9 +985,9 @@ interference,O
 ,O
 date: 2020-11-10,O
 if,O
-joe,O
-bid,O
-##en,O
+joe,PER_B
+bid,PER_I
+##en,PER_I
 were,O
 president,O
 ",",O
@@ -1008,9 +1008,9 @@ nor,O
 would,O
 the,O
 @,O
-us,O
+us,ORG_B
 _,O
-fda,O
+fda,ORG_B
 have,O
 ever,O
 approved,O
@@ -1035,14 +1035,14 @@ lives,O
 date: 2020-11-10,O
 the,O
 @,O
-us,O
+us,ORG_B
 _,O
-fda,O
+fda,ORG_B
 and,O
 the,O
-demo,O
-##cra,O
-##ts,O
+demo,PER_B
+##cra,PER_I
+##ts,PER_I
 did,O
 ##n,O
 ’,O
@@ -1092,7 +1092,7 @@ the,O
 great,O
 state,O
 of,O
-ohio,O
+ohio,LOC_B
 ?,O
 will,O
 be,O
@@ -1112,8 +1112,8 @@ announced,O
 this,O
 time,O
 by,O
-modern,O
-##a,O
+modern,ORG_B
+##a,ORG_I
 ",",O
 95,O
 %,O
@@ -1161,7 +1161,7 @@ reco,O
 going,O
 on,O
 in,O
-georgia,O
+georgia,LOC_B
 means,O
 nothing,O
 because,O
@@ -1189,11 +1189,11 @@ decree,O
 ,O
 ,O
 date: 2020-11-18,O
-flo,O
-##yd,O
+flo,PER_B
+##yd,PER_I
 county,O
 ",",O
-georgia,O
+georgia,LOC_B
 !,O
 ,O
 ,O
@@ -1207,10 +1207,10 @@ great,O
 show,O
 by,O
 @,O
-jess,O
-##eb,O
-##watt,O
-##ers,O
+jess,PER_B
+##eb,PER_I
+##watt,PER_I
+##ers,PER_I
 ton,O
 ##ight,O
 .,O
@@ -1220,9 +1220,9 @@ it,O
 on,O
 way,O
 from,O
-ohio,O
+ohio,LOC_B
 to,O
-wisconsin,O
+wisconsin,LOC_B
 !,O
 ,O
 ,O
@@ -1293,7 +1293,7 @@ dish,O
 date: 2020-10-25,O
 thank,O
 you,O
-wisconsin,O
+wisconsin,ORG_B
 !,O
 ,O
 ,O
@@ -1301,9 +1301,9 @@ date: 2020-11-10,O
 nol,O
 ##te,O
 :,O
-bret,O
-bai,O
-##er,O
+bret,PER_B
+bai,PER_I
+##er,PER_I
 delete,O
 ##s,O
 twe,O
@@ -1314,16 +1314,16 @@ back,O
 ##las,O
 ##h,O
 against,O
-fox,O
-news,O
+fox,ORG_B
+news,ORG_I
 via,O
 @,O
-bre,O
-##it,O
-##bar,O
-##tn,O
-##ew,O
-##s,O
+bre,PER_B
+##it,PER_I
+##bar,PER_I
+##tn,PER_I
+##ew,PER_I
+##s,PER_I
 ,O
 ,O
 date: 2020-10-25,O
@@ -1386,7 +1386,7 @@ ph,O
 made,O
 in,O
 the,O
-usa,O
+usa,LOC_B
 !,O
 ,O
 ,O
@@ -1424,9 +1424,9 @@ of,O
 law,O
 enforcement,O
 !,O
-joe,O
-bid,O
-##en,O
+joe,PER_B
+bid,PER_I
+##en,PER_I
 won,O
 ’,O
 t,O
