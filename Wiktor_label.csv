@@ -78,7 +78,7 @@ demo,O
 ##cy,O
 ",",O
 &,O
-amp,B-ORG
+amp,O
 ;,O
 the,O
 demo,O
@@ -100,7 +100,7 @@ though,O
 much,O
 smaller,O
 &,O
-amp,B-ORG
+amp,O
 ;,O
 with,O
 far,O
@@ -126,7 +126,7 @@ ball,O
 ##ot,O
 ##s,O
 &,O
-amp,B-ORG
+amp,O
 ;,O
 fraud,O
 !,O
@@ -351,7 +351,7 @@ msc,O
 ##hl,O
 ##app,O
 &,O
-amp,B-ORG
+amp,O
 ;,O
 @,O
 adam,PER_B
@@ -756,7 +756,7 @@ stand,O
 with,O
 kelly,PER_B
 &,O
-amp,B-ORG
+amp,O
 ;,O
 david,PER_B
 .,O
