@@ -12,4 +12,6 @@ PER_B: person entity (or beginning of entity)
 
 PER_I: continuation of person entity
 
+{'O': 0, 'PER_B': 1, 'PER_I': 2, 'LOC_B': 3, 'LOC_I': 4, 'ORG_B': 5, 'ORG_I': 6}
+
 training model weights (for now): https://drive.google.com/file/d/1zRykie7-WOuDMsQ60zrqBUKupyQArLOA/view?usp=sharing
