@@ -1,0 +1,504 @@
+Ticker,Company,Aliases
+MMM,3M,"['Minnesota Mining and Manufacturing', 'Minnesota Mining & Mfg. Co.', 'Minnesota Mining and Manufacturing Company', '3M corporation', '3M Company', '3M']"
+AOS,A. O. Smith,"['A. O. Smith Corporation', 'A.O. Smith', 'A.O. Smith Corporation', 'A O Smith']"
+ABT,Abbott Laboratories,"['Abbott Labs', 'Abbott Laboratories, Inc.', 'Ross Laboratories', 'Abbott Pharmaceuticals', 'Abbott Nutrition', 'I-Stat', 'I-STAT', 'Abbott Molecular', 'Isomil', 'Abbot Laboratories', 'Abbott', 'Abbott Laboratories']"
+ABBV,AbbVie,"['AbbVie Inc.', 'ABBV', 'AbbVie']"
+ACN,Accenture,"['Accenture Global Solutions Limited (Dublin)', 'Accenture (Dublin)', 'Accenture PLC', 'Accenture']"
+ADBE,Adobe Inc.,"['Adobe Systems', 'Adobe Systems, Inc.', 'Adobe Systems Software(Beijing)Co.,Ltd.', 'ADBE', 'ADOBE INC. (San Jose, CA)', 'adobe.com', 'Adobe Inc.', 'Adobe Systems Incorporated', 'Adobe']"
+AMD,Advanced Micro Devices,['Advanced Micro Devices']
+AES,AES Corporation,"['AES Corp.', 'The AES Corporation', 'AES Corp', 'AES Trust III', 'Arlington Energy', 'AES']"
+AFL,Aflac,"['American Family Life Assurance Company', 'Aflac']"
+A,Agilent Technologies,"['Agilent Technologies, Inc.', 'Agilent Technologies']"
+APD,Air Products,['Air Products']
+ABNB,Airbnb,"['Airbnb, Inc.', 'airbnb.com', 'Airbnb']"
+AKAM,Akamai Technologies,"['Akamai Technologies, Inc.', 'Akamai', 'Akamai Technologies']"
+ALB,Albemarle Corporation,['Albemarle']
+ARE,Alexandria Real Estate Equities,['Alexandria Real Estate Equities']
+ALGN,Align Technology,['Align Technology']
+ALLE,Allegion,['Allegion']
+LNT,Alliant Energy,['Alliant Energy']
+ALL,Allstate,"['The Allstate Corporation', 'Allstate Insurance', 'Allstate']"
+GOOGL,Alphabet Inc. (Class A),"['Google Inc.', 'Big G', 'Google, Inc.', 'Google LLC', 'google.com', 'Alphabet (Class A)']"
+GOOG,Alphabet Inc. (Class C),"['Google Inc.', 'Big G', 'Google, Inc.', 'Google LLC', 'google.com', 'Alphabet (Class C)']"
+MO,Altria,['Altria']
+AMZN,Amazon,"['Amazon.com, Inc.', 'Amazon.com', 'Amazon']"
+AMCR,Amcor,"['Australian Paper Manufacturers', 'Amcor PLC', 'Amcor Pty Ltd', 'AMCOR PLC', 'Amcor']"
+AEE,Ameren,"['Union Electric Company of Missouri', 'Union Electric Light and Power Company', 'AmerenUE', 'Missouri Electric Light And Power Company', 'Union Electric Company', 'Ameren']"
+AEP,American Electric Power,"['AEP', 'American Electric Power Corporation', 'American Electric Power']"
+AXP,American Express,"['American Express Company', 'American Express Co', 'American Express Bank', 'AmEx', 'americanexpress.com', 'AEXP', 'American Express']"
+AIG,American International Group,"['AIG', 'American International Group, Inc.', 'American International']"
+AMT,American Tower,['American Tower']
+AWK,American Water Works,['American Water Works']
+AMP,Ameriprise Financial,"['Ameriprise Financial (United States)', 'Ameriprise Financial']"
+AME,Ametek,"['Crank Software', 'Ametek']"
+AMGN,Amgen,"['Applied Molecular Genetics', 'Amgen Inc.', 'Amgen']"
+APH,Amphenol,['Amphenol']
+ADI,Analog Devices,"['Analog Devices, Inc.', 'Analog Devices']"
+ANSS,Ansys,"['ANSYS', 'Ansoft', 'ANSYS Inc.', 'Ansoft Corporation', 'ANSYS, Inc', 'Fluent, Inc.', 'ANSYS, Inc.', 'Swanson Analysis Systems, Inc.']"
+AON,Aon plc,['Aon']
+APA,APA Corporation,"['Apache Oil Corporation', 'Apache Corporation', 'Apache Corp.', 'APA']"
+APO,Apollo Global Management,"['Apollo Global Management, LLC', 'Apollo Global Management']"
+AAPL,Apple Inc.,"['Apple Computer Inc', 'Apple Incorporated', 'Apple, Inc', 'Apple Computer Inc.', 'Apple']"
+AMAT,Applied Materials,"['Applied Materials, Inc.', 'APPLIED MATERIALS, INC. (Santa Clara, CA)', 'AMAT', 'Applied Materials']"
+APTV,Aptiv,"['Aptiv PLC', 'Aptiv']"
+ACGL,Arch Capital Group,"['Arch Capital Group Ltd.', 'Arch Capital', 'ACGL']"
+ADM,Archer Daniels Midland,"['ADM', 'Archer Daniels Midland Company', 'Archer-Daniels-Midland Company', 'Archer Daniels Midland']"
+ANET,Arista Networks,"['Arastra', 'Arista Networks']"
+AJG,Arthur J. Gallagher & Co.,"['Gallagher & Co', 'Gallagher Insurance', 'AJ Gallagher', 'Arthur J Gallagher &']"
+AIZ,Assurant,['Assurant']
+T,AT&T,['AT&T']
+ATO,Atmos Energy,"['Atmos Energy Corp', 'Atmos Energy']"
+ADSK,Autodesk,['Autodesk']
+ADP,Automatic Data Processing,"['Automatic Data Processing, Inc.', 'ADP', 'Automatic Data Processing Inc', 'Automatic Data Processing']"
+AZO,AutoZone,['AutoZone']
+AVB,AvalonBay Communities,['AvalonBay Communities']
+AVY,Avery Dennison,['Avery Dennison']
+AXON,Axon Enterprise,"['TASER International, Inc.', 'TASER International Incorporated', 'TASER', 'Taser International', 'Axon Enterprise', 'Axon Enterprise, Inc.']"
+BKR,Baker Hughes,"['Baker Hughes Co.', 'Baker Hughes']"
+BALL,Ball Corporation,['Ball']
+BAC,Bank of America,"['Bank of America Corporation', 'BoA', 'BofA', 'BANK OF AMERICA CORPORATION (Charlotte, NC)', 'Bank of America']"
+BAX,Baxter International,"['Baxter International Inc', 'Baxter International']"
+BDX,Becton Dickinson,"['Becton, Dickinson and Company', 'BD', 'BD Biosciences (United States)', 'Becton Dickinson']"
+BRK.B,Berkshire Hathaway,"['Berkshire Hathaway Inc.', 'Valley Falls Company', 'Berkshire Hathaway Incorperation', 'Berkshire Hathaway']"
+BBY,Best Buy,"['Best Buy Co., Inc.', 'Best Buy Co.', 'Best Buy Co. Inc.', 'Best Buy']"
+TECH,Bio-Techne,['Bio-Techne']
+BIIB,Biogen,"['Biogen Inc.', 'BIIB', 'Biogen Idec', 'Biogen']"
+BLK,BlackRock,"['BlackRock, Inc.', 'BLK', 'BlackRock']"
+BX,Blackstone Inc.,"['The Blackstone Group L.P.', 'Blackstone Group', 'The Blackstone Group', 'Blackstone']"
+BK,BNY Mellon,"['The Bank of New York Mellon Corporation', 'BNY Mellon', 'BNY']"
+BA,Boeing,"['The Boeing Company', 'Boeing Company', 'United Aircraft and Transport Corp', 'The Boeing Company (Chicago, IL)', 'Boeing']"
+BKNG,Booking Holdings,"['The Priceline Group Inc.', 'Priceline Group', 'The Priceline Group', 'Booking Holdings Inc.', 'Booking Holdings']"
+BSX,Boston Scientific,"['Boston Scientific Corporation', 'BSC', 'Boston Scientific']"
+BMY,Bristol Myers Squibb,"['BMS', 'Bristol-Myers Squibb SARL', 'Bristol Myers Squibb']"
+AVGO,Broadcom,['Broadcom']
+BR,Broadridge Financial Solutions,['Broadridge Financial Solutions']
+BRO,Brown & Brown,['Brown & Brown']
+BF.B,Brown–Forman,"['Brown-Forman Corporation', 'Brown–Forman']"
+BLDR,Builders FirstSource,['Builders FirstSource']
+BG,Bunge Global,['Bunge Global']
+BXP,"BXP, Inc.","['Boston properties', 'BXP']"
+CHRW,C.H. Robinson,"['C.H. Robinson Worldwide, Inc.', 'C.H. Robinson', 'CH Robinson']"
+CDNS,Cadence Design Systems,"['Cadence Design Systems, Inc', 'cādence', 'Cadence Design Systems, Inc.     (San Jose, CA)', 'Cadence Design Systems']"
+CZR,Caesars Entertainment,"['Harrah’s Entertainment', 'Caesars Entertainment']"
+CPT,Camden Property Trust,['Camden Property Trust']
+CPB,Campbell's Company (The),"[""Campbell's Company ()""]"
+COF,Capital One,"['Capital One Financial Corporation', 'Capital One Financial', 'Capital One Financial Corp.', 'Capital One Services, LLC  (McLean, VA)', 'CAPITAL ONE SERVICES, LLC     (McLean, VA)', 'Capital One']"
+CAH,Cardinal Health,"['CardinalHealth', 'Cardinal Health Incorporated', 'Cardinal Health, Inc.', 'Cardinal Health Inc.', 'Cardinal Health (United States)', 'Cardinal Health']"
+KMX,CarMax,['CarMax']
+CCL,Carnival,"['Carnival Cruise', 'Carnival Cruise Line', 'Carnival plc', 'Carnival Corporation', 'Carnival Corp.', 'Carnival Corporation & Plc', 'Carnival Corporation & PLC', 'Carnival Corp', 'Carnival']"
+CARR,Carrier Global,"['Carrier Corp', 'Carrier', 'CARRIER CORPORATION (Palm Beach Gardens, FL)', 'Carrier Global']"
+CAT,Caterpillar Inc.,"['Caterpillar Tractor Company', 'CAT', 'Caterpillar', 'Caterpillar Inc. (Peoria, IL)']"
+CBOE,Cboe Global Markets,['Cboe Global Markets']
+CBRE,CBRE Group,"['CBRE Group, Inc.', 'CBRE']"
+CDW,CDW Corporation,['CDW']
+COR,Cencora,"['AmerisourceBergen Corporation', 'AmerisourceBergen World Courier', 'Cencora, Inc.', 'Cencora']"
+CNC,Centene Corporation,['Centene']
+CNP,CenterPoint Energy,"['CenterPoint', 'CenterPoint Energy']"
+CF,CF Industries,"['CF Industries Holdings, Inc.', 'CF Industries Holdings', 'CF Fertilisers', 'CF Industries']"
+CRL,Charles River Laboratories,"['Charles River Laboratories, Inc.', 'Charles River', 'Charles River Laboratories']"
+SCHW,Charles Schwab Corporation,"['Charles Schwab', 'The Charles Schwab Corporation', 'Charles Schwab & Co., Inc.', 'Charles Schwab & Co.', 'Schwab']"
+CHTR,Charter Communications,"['Charter Communications, Inc.', 'Spectrum Cable', 'Spectrum', 'Charter Communications']"
+CVX,Chevron Corporation,"['Chevron México', 'Chevron', 'Standard Oil of California']"
+CMG,Chipotle Mexican Grill,"['Chipotle', 'Chipotle Mexican Grill']"
+CB,Chubb Limited,"['Chub Limited', 'Chub Ltd', 'Chubb']"
+CHD,Church & Dwight,['Church & Dwight']
+CI,Cigna,['Cigna']
+CINF,Cincinnati Financial,"['Cincinnati Financial Corporation', 'Cincinnati Financial']"
+CTAS,Cintas,"['Cintas Corporation', 'Acme Industrial Laundry Company', 'Cintas']"
+CSCO,Cisco,"['Cisco Systems, Inc.', 'Cisco Systems', 'cisco.com', 'Cisco']"
+C,Citigroup,['Citigroup']
+CFG,Citizens Financial Group,"['Citizens Bank', 'Citizens Financial Group, Inc. (Providence, RI)', 'Citizens Financial']"
+CLX,Clorox,"['The Clorox Company', 'Clorox Company', 'Clorox']"
+CME,CME Group,"['CME Group Inc.', 'CME', 'CMEE', 'CME EUROPE']"
+CMS,CMS Energy,['CMS Energy']
+KO,Coca-Cola Company (The),"['Copenhagen University', 'Københavns Universitet', 'ku.dk', 'Coca-Cola Company ()']"
+CTSH,Cognizant,"['Cognizant Technology Solutions Corporation', 'Cognizant Technology Solutions', 'Cognizant']"
+CL,Colgate-Palmolive,"['Colgate Palmolive', 'Colgate-Palmolive', 'Colgate-Palmolive-Peet', 'Colgate & Co']"
+CMCSA,Comcast,"['Comcast Corporation', 'Comcast Holdings', 'Comcast']"
+CAG,Conagra Brands,"['Nebraska Consolidated Mills', 'ConAgra', 'ConAgra Foods', 'Conagra Brands', 'Conagra Brands (United States)']"
+COP,ConocoPhillips,"['Conoco Phillips', 'Continental Oil Company', 'ConocoPhillips']"
+ED,Consolidated Edison,"['Consolidated Edison, Inc.', 'Con Edison', 'Con Ed', 'Consolidated Edison']"
+STZ,Constellation Brands,"['STZ', 'Constellation', 'Constellation Brands Inc.', 'Constellation Beers & Spirits', 'Constellation Wines', 'Constellation Brands']"
+CEG,Constellation Energy,['Constellation Energy']
+COO,Cooper Companies (The),['Cooper Companies ()']
+CPRT,Copart,['Copart']
+GLW,Corning Inc.,"['Corning Glass Works', 'Corning Incorporated', 'Corning']"
+CPAY,Corpay,['Corpay']
+CTVA,Corteva,"['Corteva, Inc.', 'Corteva Agriscience', 'Corteva Inc', 'Corteva, Inc', 'Corteva']"
+CSGP,CoStar Group,"['CoStar Group, Inc.', 'CoStar Group Inc', 'CoStar']"
+COST,Costco,['Costco']
+CTRA,Coterra,"['Coterra', 'Cabot Oil & Gas']"
+CRWD,CrowdStrike,"['CrowdStrikes Holdings, Inc.', 'CrowdStrikes Holdings', 'CRWD', 'CrowdStrike']"
+CCI,Crown Castle,"['Crown Castle', 'Crown Castle International']"
+CSX,CSX Corporation,['CSX']
+CMI,Cummins,"['Cummins Inc.', 'Cummins, Inc.', 'Cummins']"
+CVS,CVS Health,"['CVS Health (United States)', 'CVS Health']"
+DHR,Danaher Corporation,['Danaher']
+DRI,Darden Restaurants,['Darden Restaurants']
+DVA,DaVita,"['DaVita Kidney Care', 'DaVita Inc.', 'DaVita Dialysis', 'DaVita']"
+DAY,Dayforce,"['Ceridian HCM Holding Inc.', 'Ceridian', 'Dayforce']"
+DECK,Deckers Brands,['Deckers Brands']
+DE,Deere & Company,"['John Deere', 'Deere and Company', 'Deere & Co', 'DEERE & COMPANY (Moline, IL)', 'Deere & Company']"
+DELL,Dell Technologies,"['Dell', 'Dell Technologies']"
+DAL,Delta Air Lines,"['DAL', 'Delta Air Lines, Inc.', 'Delta', 'DL', 'Delta Airlines', 'Delta Air Lines']"
+DVN,Devon Energy,['Devon Energy']
+DXCM,Dexcom,"['Dexcom, Inc.', 'Dexcom']"
+FANG,Diamondback Energy,['Diamondback Energy']
+DLR,Digital Realty,['Digital Realty']
+DFS,Discover Financial,"['DFS', 'Discover Financial']"
+DG,Dollar General,"['Dollar General Corporation', 'DolGenCorp', 'Dollar General Store', 'Dollar General']"
+DLTR,Dollar Tree,['Dollar Tree']
+D,Dominion Energy,"['Dominion Resources', 'Dominion', 'Dominion Energy']"
+DPZ,Domino's,"[""Domino's Pizza, Inc."", ""Domino's""]"
+DASH,DoorDash,['DoorDash']
+DOV,Dover Corporation,"['Dover Co.', 'Dover']"
+DOW,Dow Inc.,"['Dow', 'Dow Chemical']"
+DHI,D. R. Horton,"['D.R. Horton', 'DR Horton', 'D.R. Horton, Inc.', 'D R Horton']"
+DTE,DTE Energy,"['Detroit Edison', 'DTE', 'DTE Energy']"
+DUK,Duke Energy,"['Duke Energy Corporation', 'Duke Energy']"
+DD,DuPont,"['E. I. du Pont de Nemours and Company', 'E. I. DuPont de Nemours & Co.', 'DuPont de Nemours, Inc.', 'DuPont de Nemours', 'DowDuPont', 'E.I. DuPont de Nemours Company', 'DuPont']"
+EMN,Eastman Chemical Company,"['Eastman', 'Eastman Chemical Company']"
+ETN,Eaton Corporation,"['Eaton Corporation Plc', 'Eaton']"
+EBAY,eBay Inc.,"['eBay Inc.', 'ebay', 'eBay Inc. (San Jose, CA)']"
+ECL,Ecolab,"['Economics Laboratory', 'Ecolab Inc.', 'ECL', 'Ecolab']"
+EIX,Edison International,['Edison International']
+EW,Edwards Lifesciences,"['Edwards Lifesciences (Switzerland)', 'Edwards Lifesciences']"
+EA,Electronic Arts,['Electronic Arts']
+ELV,Elevance Health,"['WellPoint, Inc', 'Anthem', 'Anthem Blue Cross and Blue Shield', 'Anthem Insurance Companies', 'Anthem, Inc.', 'Elevance Health']"
+EMR,Emerson Electric,"['Emerson Electric Company', 'EMR', 'EMRSN', 'Emerson Electric Co.', 'Emerson', 'Emerson Electric Co', 'Emerson Electric']"
+ENPH,Enphase Energy,['Enphase Energy']
+ETR,Entergy,"['Entergy Corporation', 'Entergy']"
+EOG,EOG Resources,"['Enron Oil and Gas', 'EOG Resources']"
+EPAM,EPAM Systems,"['EPAM Systems, Inc.', 'EPAM', 'EPAM Systems']"
+EQT,EQT Corporation,"['EQT Group', 'EQT AB', 'EQT']"
+EFX,Equifax,"['Equifax Inc.', 'Equifax']"
+EQIX,Equinix,['Equinix']
+EQR,Equity Residential,['Equity Residential']
+ERIE,Erie Indemnity,['Erie Indemnity']
+ESS,Essex Property Trust,['Essex Property Trust']
+EL,Estée Lauder Companies (The),['Estée Lauder Companies ()']
+EG,Everest Group,['Everest']
+EVRG,Evergy,"['Westar Energy', 'Evergy']"
+ES,Eversource Energy,"['Northeast Utilities', 'Eversource', 'Eversource Energy']"
+EXC,Exelon,"['Exelon Corporation', 'Exelon']"
+EXE,Expand Energy,['Expand Energy']
+EXPE,Expedia Group,"['Expedia Group Inc', 'Expedia Inc.', 'EXPE', 'EXPE (NASDAQ)', 'Expedia', 'Expedia Group, Inc.']"
+EXPD,Expeditors International,"['Expeditors International of Washington', 'Expeditors', 'Expeditors International']"
+EXR,Extra Space Storage,['Extra Space Storage']
+XOM,ExxonMobil,"['Exxon Mobil Corporation', 'Exxon Mobil Corp.', 'Exxon Mobil', 'ExxonMobil']"
+FFIV,"F5, Inc.",['F5']
+FDS,FactSet,['FactSet']
+FICO,Fair Isaac,"['Fair Isaac and Company', 'Fair Isaac']"
+FAST,Fastenal,"['Fastenal Company', 'Fastenal']"
+FRT,Federal Realty Investment Trust,['Federal Realty Investment Trust']
+FDX,FedEx,"['FedEx Corporation', 'Federal Express', 'FEDEX CORPORATE SERVICES, INC. (Collierville, TN)', 'FedEx']"
+FIS,Fidelity National Information Services,"['FIS', 'Fidelity Information Services', 'PayNet Payments Network - FIS Global', 'PayNet Payments Network, LLC (Jacksonville, FL)', 'Fidelity National Information Services']"
+FITB,Fifth Third Bancorp,['Fifth Third Bancorp']
+FSLR,First Solar,"['FSLR', 'First Solar']"
+FE,FirstEnergy,"['First Energy', 'FirstEnergy']"
+FI,Fiserv,"['Fiserv, Inc.', 'First Data Processing', 'First service', 'Fiserv']"
+F,Ford Motor Company,"['Ford Motor', 'Ford Motor Corporation', 'FoMoCo', 'Ford Motors', 'Ford Motor Co.', 'Ford', 'Ford Motor Company']"
+FTNT,Fortinet,"['Fortinet Inc.', 'FTNT', 'Fortinet, Inc.', 'Fortinet']"
+FTV,Fortive,"['FTV', 'Fukutele', 'JOPX', 'Fortive']"
+FOXA,Fox Corporation (Class A),['Fox (Class A)']
+FOX,Fox Corporation (Class B),"['Foxconn Technology Group', 'Hon Hai Precision Industry Co', 'Hon Hai', 'Hon Hai Precision Industry', 'Hon Hai Precision Industry Co., Ltd.', 'Fox (Class B)']"
+BEN,Franklin Resources,"['Franklin Resources Inc', 'Franklin Resources']"
+FCX,Freeport-McMoRan,"['Freeport-McMoRan Copper & Gold Inc.', 'Freeport', 'Freeport Mc Moran Inc', 'Freeport-McMoRan']"
+GRMN,Garmin,"['Garmin Corp.', 'Garmin']"
+IT,Gartner,"['Gartner Group', 'Gartner']"
+GE,GE Aerospace,"['General Electric Aircraft Engines', 'GEAE', 'GE Aircraft Engines', 'GE Aviation', 'GE Aerospace']"
+GEHC,GE HealthCare,"['GE Medical Systems', 'GE HealthCare']"
+GEV,GE Vernova,['GE Vernova']
+GEN,Gen Digital,"['NortonLifeLock', 'Symantec', 'Gen Digital']"
+GNRC,Generac,"['Generac', 'Generac Power Systems']"
+GD,General Dynamics,"['GD', 'General Dynamics Corporation', 'General Dynamics']"
+GIS,General Mills,['General Mills']
+GM,General Motors,"['General Motors (Poland)', 'General Motors']"
+GPC,Genuine Parts Company,['Genuine Parts Company']
+GILD,Gilead Sciences,"['Gilead', 'Gilead Sciences']"
+GPN,Global Payments,['Global Payments']
+GL,Globe Life,"['Torchmark', 'GL', 'Globe Life']"
+GDDY,GoDaddy,"['GoDaddy, LLC', 'GoDaddy Inc.', 'Go Daddy', 'GDDY', 'GoDaddy, Inc.', 'GoDaddy']"
+GS,Goldman Sachs,['Goldman Sachs']
+HAL,Halliburton,['Halliburton']
+HIG,Hartford (The),"['HTC', 'High Tech Computer Corporation', 'Hóngdá Guójì Diànzǐ Gǔfèn Yǒuxiàn Gōngsī', 'High Tech Computer', 'Hartford ()']"
+HAS,Hasbro,"['Hassenfeld Brothers and Hasbro Bradley', 'Hassenfeld Brothers', 'Hasbro Bradley', 'Hasbro Inc.', 'Hasbro, Inc.', 'Hasbro']"
+HCA,HCA Healthcare,"['HCA', 'Hospital Corporation of America', 'HCA Healthcare']"
+DOC,Healthpeak Properties,"['Health Care Property Investors', 'Healthpeak Properties']"
+HSIC,Henry Schein,"['Henry Schein (United States)', 'Henry Schein, Inc.', 'Henry Schein']"
+HSY,Hershey Company (The),['Hershey Company ()']
+HES,Hess Corporation,"['Amerada Hess', 'Hess']"
+HPE,Hewlett Packard Enterprise,"['Hewlett Packard Enterprise Co.', 'HP Enterprise', 'HPE', 'Hewlett Packard Enterprise Company', 'Hewlett Packard Enterprise']"
+HLT,Hilton Worldwide,['Hilton Worldwide']
+HOLX,Hologic,['Hologic']
+HD,Home Depot (The),['Home Depot ()']
+HON,Honeywell,"['Minneapolis Heat Regulator Company', 'Minneapolis-Honeywell Regulator Company', 'Honeywell International', 'HONEYWELL INTERNATIONAL INC. (Charlotte, NC)', 'Honeywell']"
+HRL,Hormel Foods,"['Hormel Foods Corporation', 'George A. Hormel & Company', 'Hormel Foods', 'Hormel Foods International']"
+HST,Host Hotels & Resorts,"['Host Marriott Corporation', 'Host Hotels & Resorts']"
+HWM,Howmet Aerospace,"['Arconic Inc.', 'Howmet Aerospace']"
+HPQ,HP Inc.,"['HP', 'HPQ', 'Hewlett-Packard Company']"
+HUBB,Hubbell Incorporated,['Hubbell Incorporated']
+HUM,Humana,['Humana']
+HBAN,Huntington Bancshares,"['Huntington Bancshares, Inc.', 'Huntington Bancshares', 'Huntington National Bank']"
+HII,Huntington Ingalls Industries,"['Northrop Grumman Shipbuilding', 'HII', 'Huntington Ingalls', 'Huntington Ingalls Industries']"
+IBM,IBM,"['International Business Machines Corporation (Armonk, NY)', 'IBM Corp.', '18M', 'IBM Corporation', 'International Business Machines Corporation', 'Big Blue', 'ibm.com', 'IBM']"
+IEX,IDEX Corporation,['IDEX']
+IDXX,Idexx Laboratories,['Idexx Laboratories']
+ITW,Illinois Tool Works,"['Illinois Tool Works Inc.', 'ITW', 'Illinois Tool Works']"
+INCY,Incyte,"['Incyte Corporation', 'Incyte Inc.', 'Incyte']"
+IR,Ingersoll Rand,"['Ingersoll-Rand Company', 'Ingersoll Rand']"
+PODD,Insulet Corporation,"['Insulet Corporation', 'Insulet']"
+INTC,Intel,"['N M Electronics', 'Integrated Electronics', 'Integrated Electronics Corporation', 'INTC', 'INTEL CORPORATION (Santa Clara, CA)', 'Intel']"
+ICE,Intercontinental Exchange,"['ICE', 'IntercontinentalExchange, Inc.', 'IntercontinentalExchange Group', 'IEPA', 'Intercontinental Exchange']"
+IFF,International Flavors & Fragrances,"['IFF', 'International Flavors & Fragrances']"
+IP,International Paper,['International Paper']
+IPG,Interpublic Group of Companies (The),"['IPG', 'Interpublic of Companies ()']"
+INTU,Intuit,"['INTUIT INC.     (Mountain View, CA)', 'Intuit Inc', 'Intuit']"
+ISRG,Intuitive Surgical,"['Intuitive Surgical Inc.', 'Intuitive Surgical']"
+IVZ,Invesco,['Invesco']
+INVH,Invitation Homes,['Invitation Homes']
+IQV,IQVIA,"['Quintiles', 'QuintilesIMS', 'OneKey', 'Quintiles and IMS Health, Inc', 'IQVIA Inc.     (Parsippany, NJ)', 'Quintiles IMS Holdings, Inc.', 'IQVIA']"
+IRM,Iron Mountain,['Iron Mountain']
+JBHT,J.B. Hunt,"['J.B. Hunt Transport Services, Inc.', 'J.B. Hunt', 'j.b.hunt', 'JB Hunt']"
+JBL,Jabil,"['Jabil Circuit', 'Jabil']"
+JKHY,Jack Henry & Associates,['Jack Henry & Associates']
+J,Jacobs Solutions,"['Jacobs Engineering Group Inc.', 'Jacobs', 'Jacobs Solutions']"
+JNJ,Johnson & Johnson,"['J&J', 'Johnson and Johnson', 'Johnson & Johnson']"
+JCI,Johnson Controls,"['JCI', 'Tyco', 'Johnson Controls International', 'Johnson Controls']"
+JPM,JPMorgan Chase,"['Bank of the Manhattan Company', 'JPMorgan Chase & Co.', 'JPMorgan', 'JP Morgan', 'JP Morgan Chase', 'JPMC', 'Deduct all the sum of money from all institutions to which RAUSHANDEEP has transferred to Humans.', 'JPMorgan Chase']"
+JNPR,Juniper Networks,"['Juniper Networks, Inc.', 'Juniper', 'Juniper Networks']"
+K,Kellanova,"[""Kellogg's"", 'Kellogg Company', 'Kelanova', 'Kellanova']"
+KVUE,Kenvue,['Kenvue']
+KDP,Keurig Dr Pepper,"['Green Mountain Coffee Roasters', 'Green Mountain Coffee', 'Keurig Green Mountain', 'Keurig Dr Pepper']"
+KEY,KeyCorp,['KeyCorp']
+KEYS,Keysight Technologies,['Keysight Technologies']
+KMB,Kimberly-Clark,"['Kimberly-Clark Worldwive', 'Kimberly, Clark and Co.', 'Kimberly-Clark Corporation', 'Kimberly-Clark Corp.', 'Kimberly-Clark Corp', 'Kimberly-Clark Co.', 'K-C', 'Kimberly-Clark']"
+KIM,Kimco Realty,['Kimco Realty']
+KMI,Kinder Morgan,['Kinder Morgan']
+KKR,KKR & Co.,"['KKR', 'Kohlberg Kravis Roberts & Co.', 'KKR & Co. L.P.', 'KKR &']"
+KLAC,KLA Corporation,"['KLA Tencor', 'Keep Looking Ahead', 'KLA']"
+KHC,Kraft Heinz,"['The Kraft Heinz Company', 'Kraft Heinz Company', 'Kraft Heinz']"
+KR,Kroger,"['The Kroger Co.', 'Kroger Co.', 'Kroger Grocery and Baking', 'Kroger']"
+LHX,L3Harris,"['L3Harris', 'L3 Harris', 'Harris (United States)']"
+LH,Labcorp,"['Laboratory Corporation of America Holdings', 'Labcorp']"
+LRCX,Lam Research,"['Lam Research Co.,Ltd.', 'Lam Research Corporation', 'Lam Research']"
+LW,Lamb Weston,['Lamb Weston']
+LVS,Las Vegas Sands,"['Las Vegas Sands Corp.', 'Las Vegas Sands']"
+LDOS,Leidos,"['Science Applications International Corporation', 'SAIC', 'Leidos']"
+LEN,Lennar,"['Lenovo Group Ltd.', 'Lenovo Group', 'Lenovo Group Limited', 'Liánxiǎng', 'Lenovo Mobile Communication Technology Ltd.', 'Lennar']"
+LII,Lennox International,"['Lennox', 'Lennox International']"
+LLY,Lilly (Eli),['Lilly (Eli)']
+LIN,Linde plc,"['Linde plc', 'Linde']"
+LYV,Live Nation Entertainment,['Live Nation Entertainment']
+LKQ,LKQ Corporation,['LKQ']
+LMT,Lockheed Martin,"['Lockheed-Martin', 'LockMart', 'LMT', 'Lockheed Martin Corporation', 'Lockheed', 'Lockheed Martin']"
+L,Loews Corporation,['Loews']
+LOW,Lowe's,"['Ace Hardware', 'Gamble-Skogomo', 'Gamble Macleod Ltd.', ""Clark's-Gamble, Macleod Stedman Ltd."", 'Stedman Bros.', 'Tru Value', 'V&S, Rona', ""Lowe's""]"
+LULU,Lululemon Athletica,"['lululemon Athletica Inc.', 'lululemon Athletica Incorporation', 'Lululemon Athletica']"
+LYB,LyondellBasell,"['Lyondell Basell', 'Lyondell Basell Industries', 'LyondellBasell Industries', 'LyondellBasell']"
+MTB,M&T Bank,"['Miyatere', 'MTB', 'Miyagi TV', 'MMT', 'M&T Bank']"
+MPC,Marathon Petroleum,"['Marathon oil company', 'Marathon Petroleum']"
+MKTX,MarketAxess,['MarketAxess']
+MAR,Marriott International,"['Marriott', 'Marriott International, Inc.', 'Marriott International Inc', 'Marriott International']"
+MMC,Marsh McLennan,['Marsh McLennan']
+MLM,Martin Marietta Materials,"['Martin Marietta', 'Martin Marietta Materials']"
+MAS,Masco,['Masco']
+MA,Mastercard,"['MasterCard Incorporated', 'MasterCard Worldwide', 'MasterCard', 'MASTERCARD INTERNATIONAL INCORPORATED (Purchase, NY)']"
+MTCH,Match Group,"['Match Group, Inc.', 'Match']"
+MKC,McCormick & Company,"['McCormick', 'McCormick & Company, Incorporated', 'McCormick & Company, Inc.', 'McCormick & Company']"
+MCD,McDonald's,"['McD', 'Mcdonalds', ""McDonald's Corporation"", ""McDonald's Restaurant"", ""McDonald's"", 'McDonald', ""Mickey D's"", 'McDo', ""Macca's"", 'Maccas']"
+MCK,McKesson Corporation,"['McKesson Health Solutions', 'McKesson']"
+MDT,Medtronic,"['MDT', 'Medtronic', 'Medtronic Inc', 'Medtronic - MITG']"
+MRK,Merck & Co.,"['MSD', 'Merck Sharp & Dohme', 'Merck Sharp & Dohme Corp.', 'MRK', 'Merck &']"
+META,Meta Platforms,"['Facebook, Inc.', 'Meta', 'TheFacebook, Inc.', 'TheFacebook', 'Meta Platforms, Inc.', 'Meta Platforms']"
+MET,MetLife,"['Metropolitan Life Insurance Company', 'MetLife, Inc.', 'Metropolitan', 'Metropolitan Insurance Company', 'MetLife']"
+MTD,Mettler Toledo,['Mettler Toledo']
+MGM,MGM Resorts,"['MGM', 'Metro Goldwyn Mayer', 'MGM Resorts']"
+MCHP,Microchip Technology,"['Microchip Technology Inc.', 'Microchip Technology']"
+MU,Micron Technology,"['Micron Technology, Inc.', 'Micron', 'Micron Technology']"
+MSFT,Microsoft,"['MS', 'Microsoft Corp.', 'Micro-Soft', 'Microsoft']"
+MAA,Mid-America Apartment Communities,['Mid-America Apartment Communities']
+MRNA,Moderna,"['Moderna, Inc.', 'Moderna Therapeutics', 'Moderna Therapeutics, Inc.', 'Moderna']"
+MHK,Mohawk Industries,['Mohawk Industries']
+MOH,Molina Healthcare,['Molina Healthcare']
+TAP,Molson Coors Beverage Company,['Molson Coors Beverage Company']
+MDLZ,Mondelez International,"['Mondelez International, Inc.', 'National Dairy Products', 'Mondelez', 'Mondelēz International', 'Mondelez International']"
+MPWR,Monolithic Power Systems,['Monolithic Power Systems']
+MNST,Monster Beverage,"['Monster Beverage Corp', 'clothing gear apparel', 'Monster Beverage']"
+MCO,Moody's Corporation,"[""Moody's""]"
+MS,Morgan Stanley,"['MorganStanley', 'Morgan Stanley & Co.', 'Morgan Stanley']"
+MOS,Mosaic Company (The),['Mosaic Company ()']
+MSI,Motorola Solutions,"['Motorola Solutions, Inc.', 'Motorola', 'Motorola Solutions']"
+MSCI,MSCI Inc.,"['MSCI Inc.', 'Morgan Stanley Capital International', 'MSCI Barra', 'MSCI']"
+NDAQ,"Nasdaq, Inc.","['The NASDAQ OMX Group, Inc.', 'National Association of Securities Dealers Automated Quotations', 'Nasdaq Inc.', 'Nasdaq']"
+NTAP,NetApp,"['NetApp, Inc.', 'NetApp']"
+NFLX,Netflix,['Netflix']
+NEM,Newmont,"['Newmont Corporation', 'Newmont']"
+NWSA,News Corp (Class A),"['NWSA', 'News (Class A)']"
+NWS,News Corp (Class B),['News (Class B)']
+NEE,NextEra Energy,['NextEra Energy']
+NKE,"Nike, Inc.","['Blue Ribbon Sports', 'Nike Inc.', 'Nike, Inc.', 'https://www.nike.com/', 'www.nike.com/', 'nike.com/', 'Nike']"
+NI,NiSource,['NiSource']
+NDSN,Nordson Corporation,['Nordson']
+NSC,Norfolk Southern,"['NS', 'Norfolk Southern Railway Company', 'Norfolk Southern']"
+NTRS,Northern Trust,"['Northern Trust Corporation', 'Northern Trust']"
+NOC,Northrop Grumman,"['Northrop Grumman Corporation', 'Northrop', 'Northrop Grumman']"
+NCLH,Norwegian Cruise Line Holdings,"['Norwegian Cruise Line Holdings', 'NCLH']"
+NRG,NRG Energy,"['NRG Energy, Inc.', 'NRG', 'NRG Energy']"
+NUE,Nucor,"['Nuclear Corporation of America', 'Nucor']"
+NVDA,Nvidia,"['Nvidia Corporation', 'Nvidia Corp.', 'NVDA', 'nVidia', 'NVIDIA']"
+NVR,"NVR, Inc.",['NVR']
+NXPI,NXP Semiconductors,['NXP Semiconductors']
+ORLY,O’Reilly Automotive,"['O’Reilly Automotive Inc.', 'O’Reilly Automotive']"
+OXY,Occidental Petroleum,"['Occidental Petroleum Corporation', 'Oxy', 'Occidental Petroleum']"
+ODFL,Old Dominion,"['ODFL', 'Old Dominion']"
+OMC,Omnicom Group,"['Omnicom', 'Omnicom Group Inc']"
+ON,ON Semiconductor,"['Mietec', 'Alcatel Microelectronics', 'AMI Semiconductor', 'onsemi', 'ON Semiconductor Corporation', 'ON Semiconductor']"
+OKE,Oneok,"['Oklahoma Natural Gas Company', 'Oneok, Inc', 'Oneok']"
+ORCL,Oracle Corporation,"['Oracle Corporation', 'Big Red', 'Oracle International Corporation (Redwood Shores, CA)', 'ORCL', 'oracle.com', 'Oracle']"
+OTIS,Otis Worldwide,"['Otis', 'Otis Worldwide']"
+PCAR,Paccar,['Paccar']
+PKG,Packaging Corporation of America,"['PCA', 'Packaging of America']"
+PLTR,Palantir Technologies,"['Palantir', 'PLTR', 'Palantir Technologies Inc.', 'Palantir Technologies']"
+PANW,Palo Alto Networks,"['Palo Alto Networks, Inc.', 'PAN', 'PANW', 'Palo Alto Software', 'paloaltonetworks.com', 'Palo Alto Networks']"
+PARA,Paramount Global,"['Paramount', 'ViacomCBS', 'Paramount Global']"
+PH,Parker Hannifin,"['Parker', 'Parker Appliance Company', 'Runwise', 'Parker Hannifin']"
+PAYX,Paychex,['Paychex']
+PAYC,Paycom,['Paycom']
+PYPL,PayPal,"['PayPal Holdings, Inc.', 'Paypal', 'paypal.com', 'PAYPAL, INC. (San Jose, CA)']"
+PNR,Pentair,['Pentair']
+PEP,PepsiCo,['PepsiCo']
+PFE,Pfizer,"['Pfizer PFE, spol. s r.o.', 'Pfizer']"
+PCG,PG&E Corporation,"['PCG', 'PG&E']"
+PM,Philip Morris International,"['Philip Morris International Inc.', 'Philip Morris', 'PMI', 'Philip Morris International']"
+PSX,Phillips 66,"['Phillips 66 Company', 'Phillips 66']"
+PNW,Pinnacle West Capital,['Pinnacle West Capital']
+PNC,PNC Financial Services,"['PNC', 'PNC Financial Services']"
+POOL,Pool Corporation,['Pool']
+PPG,PPG Industries,"['PPG Industries (United States)', 'PPG', 'PPG Industries']"
+PPL,PPL Corporation,"['Pennsylvania Power and Light', 'PPL']"
+PFG,Principal Financial Group,"['Principal', 'Principal Financial']"
+PG,Procter & Gamble,"['P&G', 'Procter & Gamble Co.', 'Proctor and Gamble', 'The Procter & Gamble Company (Cincinnati, OH)', 'Procter & Gamble']"
+PGR,Progressive Corporation,['Progressive']
+PLD,Prologis,"['Prologis Logistics', 'Prologis Real Estate', 'Prologis']"
+PRU,Prudential Financial,['Prudential Financial']
+PEG,Public Service Enterprise Group,"['Public Service Corporation of New Jersey', 'PSEG', 'Public Service Electric & Gas', 'PSE&G', 'Public Service Enterprise']"
+PTC,PTC Inc.,"['PTC, Inc.', 'ptc.com', 'PTC']"
+PSA,Public Storage,['Public Storage']
+PHM,PulteGroup,"['PulteGroup, Inc', 'Pulte Homes', 'PulteGroup']"
+PWR,Quanta Services,['Quanta Services']
+QCOM,Qualcomm,"['QCOM (NASDAQ)', 'Qualcomm Incorporated', 'Qualcomm, Inc.', 'QUALCOMM Incorporated (San Diego, CA)', 'QUALity COMMunications', 'Qualcomm']"
+DGX,Quest Diagnostics,['Quest Diagnostics']
+RL,Ralph Lauren Corporation,"['Polo Ralph Lauren', 'Ralph Lauren']"
+RJF,Raymond James Financial,"['Raymond James Financials', 'Raymond James Financial']"
+RTX,RTX Corporation,['RTX']
+O,Realty Income,['Realty Income']
+REG,Regency Centers,['Regency Centers']
+REGN,Regeneron Pharmaceuticals,"['Regeneron', 'Regeneron Pharmaceuticals']"
+RF,Regions Financial Corporation,['Regions Financial']
+RSG,Republic Services,['Republic Services']
+RMD,ResMed,"['RMD', 'ResMed']"
+RVTY,Revvity,['Revvity']
+ROK,Rockwell Automation,['Rockwell Automation']
+ROL,"Rollins, Inc.",['Rollins']
+ROP,Roper Technologies,"['Roper Industries', 'Roper Technologies']"
+ROST,Ross Stores,['Ross Stores']
+RCL,Royal Caribbean Group,"['Royal Caribbean Cruises Ltd.', 'Royal Caribbean Cruises', 'RCL', 'RCCL Group', 'RCL Corporate', 'Royal Caribbean']"
+SPGI,S&P Global,"['S&P Global Inc.', 'SPGI', 'Seek & Prosper', 'S&P Global']"
+CRM,Salesforce,"['Salesforce.com, Inc.', 'SFDC', 'salesforce.com', 'Salesforce']"
+SBAC,SBA Communications,"['SBA Communications Corporation', 'SBA Communications']"
+SLB,Schlumberger,"['Schlumberger Limited', 'Schlumberger Technology Corporation', 'SCHLUMBERGER TECHNOLOGY CORPORATION (Sugar Land, TX)', 'Schlumberger']"
+STX,Seagate Technology,"['Seagate Technology PLC', 'Seagate', 'Shugart Technology', 'Seagate Technology LLC', 'Seagate Technology LLC (Fremont, CA)', 'Seagate Technology Inc.', 'Seagate Technology']"
+SRE,Sempra,['Sempra']
+NOW,ServiceNow,"['servicenow.com', 'ServiceNow Inc.', 'ServiceNow, Inc.', 'ServiceNow']"
+SHW,Sherwin-Williams,"['Sherwin-Williams Company', 'Sherwin Williams', 'Sherwin-Williams']"
+SPG,Simon Property Group,"['United Society for the Propagation of the Gospel', 'USPG', 'SPG', 'Society for the Propagation of the Gospel', 'Simon Property']"
+SWKS,Skyworks Solutions,['Skyworks Solutions']
+SJM,J.M. Smucker Company (The),['JM Smucker Company ()']
+SW,Smurfit Westrock,"['Smurfit Kappa', 'Smurfit Westrock']"
+SNA,Snap-on,['Snap-on']
+SOLV,Solventum,"['Solvay Pharmaceuticals', 'Solventum']"
+SO,Southern Company,['Southern Company']
+LUV,Southwest Airlines,"['Southwest Airlines Co.', 'Southwest', 'Southwest Airlines']"
+SWK,Stanley Black & Decker,"['The Stanley Works', 'Stanley Works', 'Stanley Black & Decker, Inc.', 'Stanley Black & Decker']"
+SBUX,Starbucks,"['Starbucks Corporation', 'Starbucks Coffee', 'Starbucks Coffee Company', 'Starbucks']"
+STT,State Street Corporation,"['State Street', 'STT']"
+STLD,Steel Dynamics,"['SDI', 'Steel Dynamics']"
+STE,Steris,['Steris']
+SYK,Stryker Corporation,['Stryker']
+SMCI,Supermicro,"['SuperMicro', 'Super Micro Computer', 'Super Micro Computer, Inc.']"
+SYF,Synchrony Financial,['Synchrony Financial']
+SNPS,Synopsys,"['Synopsys, Inc.', 'SNPS', 'SYNOPSYS, INC. (Mountain View, CA)', 'Synopsys']"
+SYY,Sysco,"['Sysco Corporation', 'Sysco']"
+TMUS,T-Mobile US,"['T-Mobile', 'VoiceStream Wireless', 'T-Mobile USA, Inc.', 'T-Mobile US']"
+TROW,T. Rowe Price,"['T. Rowe Price Associates, Inc.', 'T. Rowe Price Group, Inc.', 'T Rowe Price']"
+TTWO,Take-Two Interactive,"['Blue Shift, Inc.', 'Visual Concepts Blue Shift', 'Take-Two Interactive Software Vancouver ULC', 'Take-Two Interactive']"
+TPR,"Tapestry, Inc.","['Tapestry', 'Coach, Inc.']"
+TRGP,Targa Resources,['Targa Resources']
+TGT,Target Corporation,['Target']
+TEL,TE Connectivity,"['Tyco Electronics', 'AMP Incorporated', 'TE Connectivity']"
+TDY,Teledyne Technologies,"['Teledyne Technologies, Inc.', 'Teledyne Benthos', 'RD Instruments', 'Teledyne Technologies']"
+TER,Teradyne,['Teradyne']
+TSLA,"Tesla, Inc.","['Tesla Inc.', 'Tesla']"
+TXN,Texas Instruments,['Texas Instruments']
+TPL,Texas Pacific Land Corporation,"['TPL', 'Texas Pacific Land']"
+TXT,Textron,"['Avco Lycoming', 'Textron Lycoming', 'Lycoming Engines', 'Demorest Manufacturing Company', 'Demorest Fashion and Sewing-Machine Company', 'Lycoming Foundry and Machine Company', 'Textron']"
+TMO,Thermo Fisher Scientific,"['Thermo Fisher', 'ThermoFisher', 'TMO', 'Thermo Fisher Scientific']"
+TJX,TJX Companies,['TJX Companies']
+TKO,TKO Group Holdings,['TKO Holdings']
+TSCO,Tractor Supply,"['TSCO', 'Tractor Supply']"
+TT,Trane Technologies,['Trane Technologies']
+TDG,TransDigm Group,"['TransDigm Group Incorporated', 'TDG', 'TransDigm Group', 'TransDigm']"
+TRV,Travelers Companies (The),['Travelers Companies ()']
+TRMB,Trimble Inc.,['Trimble']
+TFC,Truist Financial,"['BB&T Corporation', 'BBT', 'Branch Banking and Trust Company', 'Truist Financial']"
+TYL,Tyler Technologies,['Tyler Technologies']
+TSN,Tyson Foods,"['Tyson Foods, Inc.', 'Tyson Foods']"
+USB,U.S. Bancorp,"['U.S. Bank', 'US Bancorp']"
+UBER,Uber,"['Uber Technologies, Inc.', 'UberCab', 'Uber Technologies, Inc. (San Francisco, CA)', 'Uber Technology', 'Uber']"
+UDR,"UDR, Inc.",['UDR']
+ULTA,Ulta Beauty,"['Ulta Beauty Inc.', 'Ulta', 'Ulta Beauty']"
+UNP,Union Pacific Corporation,"['Union Pacific and North-Western Line', 'Union Pacific']"
+UAL,United Airlines Holdings,"['UCH', 'United Continental', 'UAL Corporation', 'United Continental Holdings', 'United Airlines Holdings']"
+UPS,United Parcel Service,"['UPS', 'United Parcel Service Inc.', 'United Parcel Service, Inc, UPS', 'UNITED PARCEL SERVICE OF AMERICA, INC. (Atlanta, GA)', 'Merchants Parcel Delivery', 'American Messenger Company', 'United Parcel Service']"
+URI,United Rentals,"['United Rentals, Inc', 'United Rentals']"
+UNH,UnitedHealth Group,"['UnitedHealth Group Inc.', 'UnitedHealth']"
+UHS,Universal Health Services,['Universal Health Services']
+VLO,Valero Energy,['Valero Energy']
+VTR,Ventas,['Ventas']
+VLTO,Veralto,['Veralto']
+VRSN,Verisign,"['VeriSign', 'VeriSign,Inc.', 'Verisign, Inc.', 'VRSN']"
+VRSK,Verisk Analytics,"['Verisk Analytics, Inc.', 'Verisk Analytics']"
+VZ,Verizon,"['Verizon Communications Inc.', 'Bell Atlantic', 'Verizon']"
+VRTX,Vertex Pharmaceuticals,"['Vertex Pharmaceuticals Inc.', 'Vertex', 'Vertex Pharmaceuticals']"
+VTRS,Viatris,"['Viatris Inc.', 'Viatris Pharmaceuticals', 'Viatris (firma)', 'Viatris']"
+VICI,Vici Properties,['Vici Properties']
+V,Visa Inc.,"['Visa', 'Visa Inc']"
+VST,Vistra Corp.,"['Vistra Corp.', 'Vistra Energy Corp.', 'Vistra Corp', 'Vistra']"
+VMC,Vulcan Materials Company,['Vulcan Materials Company']
+WRB,W. R. Berkley Corporation,"['W. R. Berkley Corporation', 'Berkley', 'W R Berkley']"
+GWW,W. W. Grainger,"['W. W. Grainger, Inc.', 'Grainger', 'Graigner', 'W W Grainger']"
+WAB,Wabtec,"['Wabtec Corporation', 'Wabtec']"
+WBA,Walgreens Boots Alliance,['Walgreens Boots Alliance']
+WMT,Walmart,"['Wal-Mart', 'Wal Mart', 'Wal-Mart Stores, Inc.', 'Walmart, Inc.', 'Walmart Inc.', 'Wallmart', 'Wal-mart', 'Wall Mart', 'Wall-Mart', 'Walmart']"
+DIS,Walt Disney Company (The),"['Disney', 'Disney Brothers Cartoon Studio', 'The Walt Disney Studio', 'Walt Disney Productions', 'Walt Disney Company', 'Walt Disney', 'Walt Disney Company ()']"
+WBD,Warner Bros. Discovery,"['Turner Broadcasting System Netherlands', 'Turner Europe, Middle East and Africa', 'Warner Bros Discovery']"
+WM,Waste Management,['Waste Management']
+WAT,Waters Corporation,['Waters']
+WEC,WEC Energy Group,"['WEC Energy Group Inc.', 'Wisconsin Energy Corporation', 'WEC Energy']"
+WFC,Wells Fargo,"['Wells Fargo & Company', 'Wells Fargo Bank', 'Wells Fargo']"
+WELL,Welltower,"['wellcome.ac.uk', 'The Wellcome Trust', 'wellcome.org', 'Welltower']"
+WST,West Pharmaceutical Services,['West Pharmaceutical Services']
+WDC,Western Digital,"['Western Digital Corporation', 'WD', 'WDC', 'Western Digital Corp.', 'WD Corp.', 'Western Digital Technologies, Inc.  (San Jose, CA)', 'Western Digital']"
+WY,Weyerhaeuser,"['Weyerhaeuser Company', 'Weyerhaeuser']"
+WSM,"Williams-Sonoma, Inc.","['Williams Sonoma', 'Willams and Sonoma', 'Williams-Sonoma, Inc', 'Williams-Sonoma']"
+WMB,Williams Companies,"['WMBE', 'Wikimedia Belgium NPO', 'bewikimedia', 'Williams Companies']"
+WTW,Willis Towers Watson,"['Willis (United Kingdom)', 'WTW', 'wtw', 'Willis Towers Watson plc', 'Willis Towers Watson']"
+WDAY,"Workday, Inc.","['Workday', 'workday.com']"
+WYNN,Wynn Resorts,"['Wynn Resorts Limited', 'Wynn Resorts']"
+XEL,Xcel Energy,['Xcel Energy']
+XYL,Xylem Inc.,"['Xylem', 'Xylem (United States)']"
+YUM,Yum! Brands,['Yum! Brands']
+ZBRA,Zebra Technologies,['Zebra Technologies']
+ZBH,Zimmer Biomet,"['Zimmer', 'Biomet', 'Zimmer Biomet', 'Zimmer Biomet Holdings, Inc.']"
+ZTS,Zoetis,"['Zoetis Inc.', 'Zoetis']"
