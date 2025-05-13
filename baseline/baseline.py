@@ -1,5 +1,9 @@
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import torch
+import pandas as pd
+
+splits = {'train': 'train.csv', 'validation': 'val.csv', 'test': 'test.csv'}
+df = pd.read_csv("hf://datasets/gtfintechlab/finer-ord/" + splits["train"]) #optional dataset for later, but for baseline must use provided text
 
 def read_conllu_like_iob2(filepath):
     sentences = []
@@ -93,37 +97,26 @@ dev_sentences, dev_labels = read_conllu_like_iob2('en_ewt-ud-dev.iob2')
 label2id, id2label = create_label_mapping(train_labels + dev_labels)
 num_labels = len(label2id)
 
+# Model
 tokenizer = AutoTokenizer.from_pretrained("FinanceInc/finbert-pretrain")
-model = AutoModelForMaskedLM.from_pretrained("FinanceInc/finbert-pretrain") 
-# Prepare datasets
+model = AutoModelForTokenClassification.from_pretrained(
+    "FinanceInc/finbert-pretrain",
+    num_labels=len(label2id),
+    id2label=id2label,
+    label2id=label2id
+) # this works, some other finBERT have questionable success, but can research otherbaseline options
+
 train_dataset = NERDataset(train_sentences, train_labels, tokenizer, label2id)
 dev_dataset = NERDataset(dev_sentences, dev_labels, tokenizer, label2id)
-
-# Model
-'''
-tokenizer = AutoTokenizer.from_pretrained("yiyanghkust/finbert-pretrain")
-model = AutoModelForSequenceClassification.from_pretrained("yiyanghkust/finbert-pretrain")
-'''
-
-# Load tokenizer and model
-'''model_name = "bert-base-cased"  # Try to replace with above
-tokenizer = AutoTokenizer.from_pretrained(model_name)
-model = AutoModelForTokenClassification.from_pretrained(model_name, num_labels=num_labels, id2label=id2label, label2id=label2id)
-'''
-# this works, some other finBERT have questionable success, but can research otherbaseline options
-
-
-
-
 
 
 training_args = TrainingArguments(
     output_dir="./results",
     evaluation_strategy="epoch",
     learning_rate=0.0001,
-    per_device_train_batch_size=128,
-    per_device_eval_batch_size=128,
-    num_train_epochs=1,
+    per_device_train_batch_size=16,
+    per_device_eval_batch_size=16,
+    num_train_epochs=3,
     weight_decay=0.01,
     save_strategy="epoch",
     logging_dir="./logs",
@@ -140,97 +133,7 @@ trainer = Trainer(
 
 trainer.train()
 
-
-def predict_ner(model, tokenizer, sentences, label2id, id2label, max_len=128):
-    model.eval()
-    predictions = []
-    
-    for sentence in sentences:
-        encoding = tokenizer(sentence,
-                             is_split_into_words=True,
-                             padding='max_length',
-                             truncation=True,
-                             max_length=max_len,
-                             return_tensors='pt')
-        
-        with torch.no_grad():
-            outputs = model(**encoding)
-        
-        logits = outputs.logits
-        predicted_ids = torch.argmax(logits, dim=2).squeeze(0).tolist()
-        
-        word_ids = encoding.word_ids(batch_index=0)
-        prev_word_idx = None
-        sentence_predictions = []
-        
-        for i, word_idx in enumerate(word_ids):
-            if word_idx is None:
-                continue
-            if word_idx != prev_word_idx:  # Only consider first subword
-                sentence_predictions.append(id2label[predicted_ids[i]])
-            prev_word_idx = word_idx
-        
-        predictions.append(sentence_predictions)
-    
-    return predictions
-
-# Load test data
-#test_sentences, test_labels = read_conllu_like_iob2('en_ewt-ud-test-masked.iob2')
-test_sentences, test_labels = read_conllu_like_iob2('test.iob2')
-# Run prediction
-test_predictions = predict_ner(model, tokenizer, test_sentences, label2id, id2label)
-
-# Print example output
-for i in range(5):  # Print first 5 predictions
-    print("Sentence:", " ".join(test_sentences[i]))
-    print("Predicted labels:", test_predictions[i])
-    print("Actual labels:", test_labels[i])
-    print()
-
-
-
-def predict_ner(model, tokenizer, sentences, label2id, id2label, max_len=128):
-    model.eval()
-    predictions = []
-    
-    for sentence in sentences:
-        encoding = tokenizer(sentence,
-                             is_split_into_words=True,
-                             padding='max_length',
-                             truncation=True,
-                             max_length=max_len,
-                             return_tensors='pt')
-        
-        with torch.no_grad():
-            outputs = model(**encoding)
-        
-        logits = outputs.logits
-        predicted_ids = torch.argmax(logits, dim=2).squeeze(0).tolist()
-        
-        word_ids = encoding.word_ids(batch_index=0)
-        prev_word_idx = None
-        sentence_predictions = []
-        
-        for i, word_idx in enumerate(word_ids):
-            if word_idx is None:
-                continue
-            if word_idx != prev_word_idx:  # Only consider first subword
-                sentence_predictions.append(id2label[predicted_ids[i]])
-            prev_word_idx = word_idx
-        
-        predictions.append(sentence_predictions)
-    
-    return predictions
-
-# Load test data
-#test_sentences, test_labels = read_conllu_like_iob2('en_ewt-ud-test-masked.iob2')
-test_sentences, test_labels = read_conllu_like_iob2('test.iob2')
-# Run prediction
-test_predictions = predict_ner(model, tokenizer, test_sentences, label2id, id2label)
-
-# Print example output
-for i in range(5):  # Print first 5 predictions
-    print("Sentence:", " ".join(test_sentences[i]))
-    print("Predicted labels:", test_predictions[i])
-    print("Actual labels:", test_labels[i])
-    print()
+# Save model weights and tokenizer to a directory
+save_path = "./baseline_model"  
+trainer.save_model(save_path)
+tokenizer.save_pretrained(save_path)
